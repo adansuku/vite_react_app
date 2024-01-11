@@ -1,8 +1,7 @@
+import Dashboard from "./sections/dashboard/Dashboard";
+
 export function App() {
-	return (
-		<div className="App">
-			<h3>⚡⚛️ Vite React Best Practices Template (by Codely)</h3>
-			<h2>Current users</h2>
-		</div>
-	);
+	return <Dashboard />;
 }
+
+export default App;
